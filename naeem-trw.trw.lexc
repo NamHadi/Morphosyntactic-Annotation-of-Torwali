@@ -12,6 +12,7 @@ Multichar_Symbols
 %<cnj%>   ! Conjunction
 %<ij%>    ! Interjection
 %<prep%>  ! Preposition
+%<ccnj%>  ! CConjunction
 
 
 
@@ -56,6 +57,7 @@ Conjunctions ;
 Interjections ;
 Numerals ;
 Prepositions ;
+CConjunctions ;
 
 
 
@@ -141,6 +143,16 @@ LEXICON CNJ
 LEXICON IJ
 
 %<ij%>: # ;
+
+LEXICON PREP
+
+%<prep%>: # ;
+
+LEXICON CCNJ
+
+%<ccnj%>: # ;
+
+
 
 
 
@@ -706,6 +718,15 @@ LEXICON Numerals
 LEXICON Prepositions
 
 پا:پا PREP ;
+
+LEXICON CConjunctions
+
+اَسے:اَسے	CCNJ ;
+یا:یا CCNJ ;
+او:او CCNJ ;
+آں:آں CCNJ ;
+
+
 
 
 
