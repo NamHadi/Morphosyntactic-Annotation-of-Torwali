@@ -11,6 +11,7 @@ Multichar_Symbols
 %<adv%>   ! Adverb
 %<cnj%>   ! Conjunction
 %<ij%>    ! Interjection
+%<prep%>  ! Preposition
 
 
 
@@ -54,6 +55,7 @@ Adverbs ;
 Conjunctions ;
 Interjections ;
 Numerals ;
+Prepositions ;
 
 
 
@@ -152,6 +154,9 @@ LEXICON IJ
 LEXICON NounRoot
 
 
+لوؤ:لوؤ N-M ;
+پو:پو N-M ;
+پوت:پوت N-M ;
 آب:آب N-M ;
 آبادی:آبادی N-F ; 
 اچار:اچار N-M ;
@@ -347,6 +352,16 @@ LEXICON NounRoot
 
 LEXICON Verbs
 
+ڈیو:ڈیو V ;
+تُھو:تُھو VAUX ;
+کوؤ:کوؤ VT ;
+دے:دے VAUX ;
+بھیئی:بھیئی V ;
+بَژُو:بَژُو V ;
+ہوئی:ہوئی VAUX ;
+شی:شی VAUX ;
+آنو:آنو V ;
+پے:پے VT ;
 ڙینگ:ڙینگ VI ;
 بھی:بھی  V ;
 بن:بن V ;
@@ -386,6 +401,9 @@ LEXICON Verbs
 
 LEXICON Adjectives
 
+کَم:کَم ADJ ;
+کھیدیک:کھیدیک ADJ ;
+تُنُو:تُنُو ADJ ;
 بژیل:بژیل ADJ1 ;
 لوٷ:لوٷ ADJ1 ;
 کم:کم ADJ1 ;
@@ -557,6 +575,8 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
+مھی:مھی PR ;
+تی:تی PR ;
 آ:آ PR ;
 امَن:امَن PR ;
 ہے:ہے PR ;
@@ -592,6 +612,7 @@ LEXICON Pronouns
 
 LEXICON Adverbs
 
+اگا:اگا ADV ;
 امَن:امَن ADV ;
 اَسُود:اَسُود ADV ;
 اجَن:اجَن ADV ;
@@ -611,6 +632,7 @@ LEXICON Adverbs
 
 LEXICON Conjunctions
 
+دا:دا CNJ ;
 آں:آں CNJ ;
 اَسے:اَسے	CNJ ;
 اما:اما	CNJ ;
@@ -681,6 +703,9 @@ LEXICON Numerals
 دَش:دَش NUM ;
 
 
+LEXICON Prepositions
+
+پا:پا PREP ;
 
 
 
