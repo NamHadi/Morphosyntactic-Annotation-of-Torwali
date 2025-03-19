@@ -1,9 +1,9 @@
 # sent_id = 1
 # text = سے آ مأ تُنُو پوت تُنُو پو پینین آ
 # translit = se a mæ tunu pot tunu po penin a
-1	سے	سے	Pron	_	Case=Nom|Gender=Neut|Number=Sing,Plur|Person=3	0	root	_	Translit=se
+1	سے	سے	PRON	_	Case=Nom|Gender=Neut|Number=Sing,Plur|Person=3	0	root	_	Translit=se
 2	آ	آ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Translit=a
-3	مأ	مأ	Pron	_	Case=Nom|Number=Sing|Person=1	0	root	_	Translit=mæ
+3	مأ	مأ	PRON	_	Case=Nom|Number=Sing|Person=1	0	root	_	Translit=mæ
 4	تُنُو	تُنُو	PRON	_	Case=Poss|Number=Sing|Person=3	0	root	_	Translit=tunu
 5	پوت	پوت	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Translit=po
 6	تُنُو	تُنُو	PRON	_	Case=Poss|Number=Sing|Person=3	0	root	_	Translit=tunu
