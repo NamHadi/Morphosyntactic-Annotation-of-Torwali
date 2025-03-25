@@ -1,9 +1,9 @@
 # sent_id = 1
 # text = سے آ مأ تُنُو پوت تُنُو پو پینین آ
 # translit = se a mæ tunu pot tunu po penin a
-1	سے	سے	PRON	_	Case=Nom|Gender=Neut|Number=Sing,Plur|Person=3	0	root	_	Translit=se
+1	سے	سے	Pron	_	Case=Nom|Gender=Neut|Number=Sing,Plur|Person=3	0	root	_	Translit=se
 2	آ	آ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Translit=a
-3	مأ	مأ	PRON	_	Case=Nom|Number=Sing|Person=1	0	root	_	Translit=mæ
+3	مأ	مأ	Pron	_	Case=Nom|Number=Sing|Person=1	0	root	_	Translit=mæ
 4	تُنُو	تُنُو	PRON	_	Case=Poss|Number=Sing|Person=3	0	root	_	Translit=tunu
 5	پوت	پوت	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Translit=po
 6	تُنُو	تُنُو	PRON	_	Case=Poss|Number=Sing|Person=3	0	root	_	Translit=tunu
@@ -205,7 +205,7 @@
 # sent_id = 19
 # text = مھے کیژا مے گِیت سی دُوئی اَلا اموڜا گا
 # translit = mhe keǰa me ɡit si dui ala amoṣa ɡa.
-1	مھے	مھے	PRON	_	Case=Acc|Number=Sing|Person=1   0   root    _	Translit=mhe	_	_	_
+1	مھے	مھے	PRON	_	Case=Acc|Number=Sing|Person=1   0   root    _	Translit=mhe
 2	کیژا	کیژا	ADP	_	_	0	root	_	Translit=keǰa
 3	مے	مے	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	0	root	_	Translit=me
 4	گِیت	گِیت	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Translit=ɡit
@@ -223,7 +223,7 @@
 3	الُوگاٹ	الُوگاٹ	ADJ	_	Gender=Masc|Number=Plur	0	root	_	Translit=aluɡaṭ
 4	ہیلی	ہیل	ADJ	_	Gender=Fem	0	root	_	Translit=hili
 5	ہوئی	ہوؤ	AUX	_	Aspect=Perf|Number=Plur|Verbform=Part	0	root	_	Translit=huidi.
-6	دی	دی	AUX	_	Number=Plur|Person=3|Verbform=Fin	_	_	_	_
+6	دی	دی	AUX	_	Number=Plur|Person=3|Verbform=Fin
 
 # sent_id = 21
 # text = جَوَئی نأر می اَلوَل ہےدے وَوؤدُود
@@ -1112,7 +1112,7 @@
 # translit = bəŋɡal mi banəsa si ɡhən ɡhən zəŋɡəl hodi.
 1	بنگال	بنگال	PRON	_	Case=Loc|Number=Sing	0	root	_	Translit=bəŋɡal
 2	می	می	ADP	_	_	0	root	_	Translit=mi
-3	بانَس آ	بانَس آ	NOUN    _	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Translit=banəsa	_
+3	بانَس آ	بانَس آ	NOUN    _	Case=Gen|Gender=Masc|Number=Sing	0	root	_	Translit=banəsa
 4	سی	سی	ADP	_	_	0	root	_	Translit=si
 5	گھن	گھن	ADJ	_	Number=Plur	0	root	_	Translit=ɡhən
 6	گھن	گھن	ADJ	_	Number=Plur	0	root	_	Translit=ɡhən
@@ -1150,265 +1150,277 @@
 7	بانگدے	بانگدے	VERB	_	Aspect=Imp|Number=Sing|Person=2|Tense=Pres|Verbform=Inf	0	root	_	Translit=baŋde
 8	بَش	بَش	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=bəš.
 
-
 # sent_id = 101
 # text = چھی بأنگی نہ بانگَدُو تیس لَما گھیندے گا
 # translit = čhi bæŋi nə-baŋədu tes lhəma ɡhinde ɡa.
-1	چھی	چھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhi
-2	بأنگی	بأنگی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæŋi
-3	نہ	نہ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nə-baŋədu
-4	بانگَدُو	بانگَدُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tes
-5	تیس	تیس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=lhəma
-6	لَما	لَما	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡhinde
-7	گھیندے	گھیندے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡa.
+1	چھی	چھی	PRON	_	Case=Poss|Number=Sing|Person=2|Gender=Masc	4	nmod	_	Translit=čhi
+2	بأنگی	بأنگی	NOUN	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	4	nsubj	_	Translit=bæŋi
+3	نہ	نہ	ADV	_	_	4	advmod	_	Translit=nə
+4	بانگَدُو	بانگَو	VERB	_	Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	0	acl	_	Translit=baŋədu
+5	تیس	تیس	PRON	_	Case=Acc|Number=Sing|Person=3|Gender=Masc	4	iobj	_	Translit=tes
+6	لَما	لَما	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nmod	_	Translit=lhəma
+7	گھیندے	گھین	VERB	_	Aspect=Perf|Number=None|Person=None|Tense=PastPart|Verbform=NonFin	4	compound	_	Translit=ɡhinde
+8	گا	گا	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	4	root	_	Translit=ɡa
 
 # sent_id = 102
 # text = بوپ پوئے بنوُ مھےسیت سأت ہو
 # translit = bop po ye bənu mhe set sæt ho.
-1	بوپ	بوپ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bop
-2	پوئے	پوئے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=po
-3	بنوُ	بنوُ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ye
-4	مھےسیت	مھےسیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bənu
-5	سأت	سأت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhe
-6	ہو	ہو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=set
+1	بوپ	بوپ	NOUN	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	3	nsubj	_	Translit=bop
+2	پوئے	پوئے	NOUN	_	Case=Acc|Number=Sing|Person=3|Gender=Masc	3	iobj	_	Translit=po
+3	بنوُ	بنوُ	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=ye
+4	مھےسیت	مھےسیت	PRON	_	Number=Sing|Person=1|Gender=Masc	3	nmod	_	Translit=bənu
+5	سأت	سأت	NOUN	_	Case=Nom|Number=Plur|Person=None|Gender=Masc	3	nsubj	_	Translit=mhe
+6	ہو	ہو	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	3	root	_	Translit=set
 
 # sent_id = 103
 # text = ألِیچے سی تَھام می بار نُو تُھو
 # translit = æliče si tham mi bar nu thu.
-1	ألِیچے	ألِیچے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=æliče
-2	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-3	تَھام	تَھام	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tham
-4	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-5	بار	بار	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bar
-6	نُو	نُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nu
-7	تُھو	تُھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thu.
+1	ألِیچے	ألِیچے	NOUN	_	Case=Nom|Number=Plur|Person=None|Gender=Masc	0	nmod	_	Translit=æliče
+2	سی	سی	ADP	_	Case=Gen	0	case	_	Translit=si
+3	تَھام	تَھام	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	0	nsubj	_	Translit=tham
+4	می	می	ADP	_	_	0	obl	_	Translit=mi
+5	بار	بار	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	0	nsubj	_	Translit=bar
+6	نُو	نُو	ADV	_	_	7	advmod	_	Translit=nu
+7	تُھو	تُھو	VERB	_	Aspect=None|Number=Plur|Person=3|Tense=Pres|Verbform=Fin	0	parataxis	_	Translit=thu.
 
 # sent_id = 104
 # text = چِھی کأن بَھیَیل سے بار ماڜ کام اَشُو؟
 # translit = čhi kæn bhəyel se bar maṣ kam ašu?
-1	چِھی	چِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhi
-2	کأن	کأن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kæn
-3	بَھیَیل	بَھیَیل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhəyel
-4	سے	سے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=se
-5	بار	بار	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bar
-6	ماڜ	ماڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=maṣ
-7	کام	کام	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kam
-8	اَشُو؟	اَشُو؟	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ašu?
+1	چِھی	چِھی	PRON	_	Case=Poss|Number=Sing|Person=2|Gender=Masc	0	nmod	_	Translit=čhi
+2	کأن	کأن	NOUN	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kæn
+3	بَھیَیل	بَھیَیل	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	acl	_	Translit=bhəyel
+4	سے	سے	PRON	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=se
+5	بار	بار	ADJ	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bar
+6	ماڜ	ماڜ	NOUN	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=maṣ
+7	کام	کام	PRON	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kam
+8	اَشُو؟	اَشُو؟	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=ašu?
 
 # sent_id = 105
 # text = چِھی پوئے باردَنے دے چیرِیٹ تھیلی
 # translit = čhi poe bardənede čeriṭ theli.
-1	چِھی	چِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhi
-2	پوئے	پوئے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=poe
-3	باردَنے	باردَنے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bardənede
-4	دے	دے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čeriṭ
-5	چیرِیٹ	چیرِیٹ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=theli.
-
+1	چِھی	چِھی	PRON	_	Case=Poss|Number=Sing|Person=2|Gender=Masc	0	nmod	_	Translit=čhi
+2	پوئے	پوئے	NOUN	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	0	nsubj	_	Translit=poe
+3	باردَنے	باردَن	NOUN	_	Case=Inst|Number=Sing|Person=None|Gender=Fem	0	obl	_	Translit=bardəne
+4	دے	دے	ADP	_	_	0	case	_	Translit=de
+5	چیرِیٹ	چیرِیٹ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	0	obj	_	Translit=čeriṭ
+6	تھیلی	تھیلو	NOUN	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=theli
 # sent_id = 106
 # text = مِھی گیئی اے بأل اے باس جیات
 # translit = mhi ɡeie bæl e bas ǰeat.
-1	مِھی	مِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhi
-2	گیئی	گیئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡeie
-3	اے	اے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæl
-4	بأل	بأل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=e
-5	اے	اے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bas
-6	باس	باس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ǰeat.
+1	مِھی	مِھی	PRON	_	Case=Poss|Number=Sing|Person=1|Gender=Fem	0	nmod	_	Translit=mhi
+2	گیئی	گیئی	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	0	nsubj	_	Translit=ɡei
+3	اے	اے	ADP	_	_	0	aux	_	Translit=
+4	بأل	بأل	ADV	_	_	0	obl	_	Translit=bæl
+5	اے	اے	DET	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=e
+6	باس	باس	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	0	obj	_	Translit=bas
+7	جیات	جیوؤ	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=ǰeat
 
 # sent_id = 107
 # text = سے تھیت بھیئی دے کا بحث کوؤ دُود؟
 # translit = se thet bheide ka bas kowdud?
-1	سے	سے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=se
-2	تھیت	تھیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thet
-3	بھیئی	بھیئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bheide
-4	دے	دے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ka
-5	کا	کا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bas
-6	بحث	بحث	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kowdud?
+1	سے	سے	PRON	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	0	nsubj	_	Translit=se
+2	تھیت	تھیت	ADV	_	_	0	advmod	_	Translit=thet
+3	بھیئی	بھیئی	VERB	_	Aspect=Imp|Number=None|Person=None|Tense=None|Verbform=NonFin	0	acl	_	Translit=bhei
+4	دے	دے	VERB	_	Aspect=None|Number=None|Person=None|Tense=None|Verbform=NonFin	0	root	_	Translit=de
+5	کا	کا	PRON	_	Case=Acc	0	obj	_	Translit=ka
+6	بحث	بحث	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	0	obj	_	Translit=bas
+7	کوؤ دُود	کوؤ 	VERB	_	Aspect=Prog,Perf|Number=Plur|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=kowdud?
 
 # sent_id = 108
 # text = باسن وا شووأل وال
 # translit = basən wa šowæl wal
-1	باسن	باسن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=basən
-2	وا	وا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=wa
-3	شووأل	شووأل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šowæl
-4	وال	وال	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=wal
+1	باسن	باسن	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	0	nmod	_	Translit=basən
+2	وا	وا	ADP	_	_	0	obl	_	Translit=wa
+3	شووأل	شووأل	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	0	obj	_	Translit=šowæl
+4	وال	وال	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=wal
 
 # sent_id = 109
 # text = یَب می اے باڜ اُو ہُم پُورا نُو تُھو
 # translit = yəb mi e baṣ u hum pura nu-thu.
-1	یَب	یَب	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=yəb
-2	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-3	اے	اے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=e
-4	باڜ	باڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=baṣ
-5	اُو	اُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=u
-6	ہُم	ہُم	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=hum
-7	پُورا	پُورا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=pura
-8	نُو	نُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nu-thu.
+1	یَب	یب	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	0	nmod	_	Translit=yəb
+2	می	می	ADP	_	_	0	obl	_	Translit=mi
+3	اے	اے	DET	_	Number=Sing	0	det	_	Translit=e
+4	باڜ	باڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	0	nmod	_	Translit=baṣ
+5	اُو	اُو	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	0	nsubj	_	Translit=u
+6	ہُم	ہُم	ADV	_	_	0	advmod	_	Translit=hum
+7	پُورا	پُورا	ADJ	_	_	0	amod	_	Translit=pura
+8	نُو	نُو	ADV	_	Case=|Gender=|Number=|Person=	0	advmod	_	Translit=nu
+9	تُھو	تُھو	VERB	_	Aspect=None|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	0	root	_	Translit=thu
 
 # sent_id = 110
 # text = تُونُو پینیئی سی باش ٹِک کو
 # translit = tunu penei si baš ṭik ko!
-1	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-2	پینیئی	پینیئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=penei
-3	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-4	باش	باش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=baš
-5	ٹِک	ٹِک	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ṭik
-6	کو	کو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko!
+1	تُونُو	تُونُو	PRON	_	Case=Poss|Number=Sing|Person=2|Gender=Masc	0	nmod	_	Translit=tunu
+2	پینیئی	پینیئی	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	0	nmod	_	Translit=penei
+3	سی	سی	ADP	_	Case=|Gender=|Number=|Person=	0	case	_	Translit=si
+4	باش	باش	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	0	obj	_	Translit=baš
+5	ٹِک	ٹِک	ADJ	_	_	0	advmod	_	Translit=ṭik
+6	کو	کوؤ	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=ko!
 
 # sent_id = 111
 # text = کی بات نی چِھی ایس مھو امَن سیت باش کیئی
 # translit = ki bat ni-čhi es mho awən set baš kei.
-1	کی	کی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ki
-2	بات	بات	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bat
-3	نی	نی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ni-čhi
-4	چِھی	چِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=es
-5	ایس	ایس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mho
-6	مھو	مھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=awən
-7	امَن	امَن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=set
-8	سیت	سیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=baš
-9	باش	باش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kei.
+1	کی	کی	PRON	_	Case=Nom	0	det	_	Translit=ki
+2	بات	بات	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	0	nsubj	_	Translit=bat
+3	نی	نی	ADV	_	_	0	advmod	_	Translit=ni
+4	چِھی	چِھی	VERB	_	Aspect=None|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	0	root	_	Translit=čhi
+5	ایس	ایس	PRON	_	Case=Acc|Number=Sing|Person=3|Gender=Masc	0	obj	_	Translit=es
+6	مھو	مھو	PRON	_	Case=Nom|Number=Plur|Person=1	0	nsubj	_	Translit=mho
+7	امَن	امَن	PRON	_	Case=Poss|Number=Plur|Person=1|Gender=Masc	0	nmod	_	Translit=awən
+8	سیت	سیت	NOUN	_	Case=Acc|Number=None|Person=None|Gender=Masc	0	obl	_	Translit=set
+9	باش	باش	VERB	_	Aspect=Imp|Number=Plur|Person=1|Tense=Pres|Verbform=NonFin	0	compound	_	Translit=kei.baš
+10	کیئی	کوؤ	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	compound	_	Translit=kei.baš
+
 
 # sent_id = 112
 # text = کاک باشَدُو مُھن کآم میلأڜ ییدُو
 # translit = kak bašədu mhun kəam melæṣ yedu.
-1	کاک	کاک	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kak
-2	باشَدُو	باشَدُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bašədu
-3	مُھن	مُھن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhun
-4	کآم	کآم	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kəam
-5	میلأڜ	میلأڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=melæṣ
-6	ییدُو	ییدُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=yedu.
+1	کاک	کاک	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	2	nsubj	_	Translit=kak
+2	باشَدُو	باشُو	VERB	_	Aspect=Prog|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	0	root	_	Translit=bašədu
+3	مُھن	مُھن	PRON	_	Case=Poss|Number=Sing|Person=1|Gender=Masc	5	nmod	_	Translit=mhun
+4	کآم	کآم	ADJ	_	_	5	amod	_	Translit=kəam
+5	میلأڜ	میلأڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	6	nsubj	_	Translit=melæṣ
+6	ییدُو	ییو	VERB	_	Aspect=Prog|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	2	parataxis	_	Translit=yedu.
 
 # sent_id = 113
 # text = کیگی سی باٹ می سیگَل اَشُو
 # translit = kəɡi si baṭ mi siɡəl ašu.
-1	کیگی	کیگی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kəɡi
-2	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-3	باٹ	باٹ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=baṭ
-4	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-5	سیگَل	سیگَل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=siɡəl
-6	اَشُو	اَشُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ašu.
+1	کیگی	کیگی	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	2	nmod	_	Translit=kəɡi
+2	سی	سی	ADP	_	_	1	case	_	Translit=si
+3	باٹ	باٹ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	obl	_	Translit=baṭ
+4	می	می	ADP	_	_	4	obl	_	Translit=mi
+5	سیگَل	سیگَل	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	6	nsubj	_	Translit=siɡəl
+6	اَشُو	تھو	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=ašu.
 
 # sent_id = 114
 # text = شین سی بازُو پھورُودُو ایس سَوا
 # translit = šen si bazu phorudu es səwa.
-1	شین	شین	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šen
-2	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-3	بازُو	بازُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bazu
-4	پھورُودُو	پھورُودُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=phorudu
-5	ایس	ایس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=es
-6	سَوا	سَوا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=səwa.
+1	شین	شین	NOUN	_	POS=Noun | Case=Nom|Number=Sing|Person=None|Gender=Fem	2	nmod	_	Translit=šen
+2	سی	سی	ADP	_	Case=|Gender=|Number=|Person=	1	case	_	Translit=si
+3	بازُو	بازُو	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nsubj	_	Translit=bazu
+4	پھورُودُو	پھورُودُو	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=phorudu
+5	ایس	ایس	PRON	_	Case=Acc|Number=Sing|Person=3|Gender=Masc	6	root	_	Translit=es
+6	سَوا	سَوا	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	4	parataxis	_	Translit=səwa.
 
 # sent_id = 115
 # text = بدکردار ماڜ سیت تعلق نہ سات
 # translit = bədkirdar maṣ set taluq nə sat
-1	بدکردار	بدکردار	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bədkirdar
-2	ماڜ	ماڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=maṣ
-3	سیت	سیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=set
-4	تعلق	تعلق	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=taluq
-5	نہ	نہ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nə
-6	سات	سات	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=sat
+1	بدکردار	بدکردار	ADJ	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	2	nmod	_	Translit=bədkirdar
+2	ماڜ	ماڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nsubj	_	Translit=maṣ
+3	سیت	سیت	ADP	_	_	4	obl	_	Translit=set
+4	تعلق	تعلق	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	6	obj	_	Translit=taluq
+5	نہ	نہ	ADV	_	_	6	advmod	_	Translit=nə
+6	سات	سات	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=sat
 
 # sent_id = 116
 # text = بدَگئی می اُو گِھن مھو بان وا بِژی
 # translit = bədəɡəi mi u ɡhin mho bən ɡe biǰi.
-1	بدَگئی	بدَگئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bədəɡəi
-2	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-3	اُو	اُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=u
-4	گِھن	گِھن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡhin
-5	مھو	مھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mho
-6	بان	بان	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bən
-7	وا	وا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡe
-8	بِژی	بِژی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=biǰi.
+1	بدَگئی	بدَگئی	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	2	nmod	_	Translit=bədəɡəi
+2	می	می	ADP	_	_	1	obl	_	Translit=mi
+3	اُو	اُو	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	4	obj	_	Translit=u
+4	گِھن	گِھن	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=ɡhin
+5	مھو	مھو	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	Translit=mho
+6	بان	بان	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	8	obl	_	Translit=bən
+7	وا	وا	ADV	_	_	6	advmod	_	Translit=ɡe
+8	بِژی	بِژی	VERB	_	Aspect=Fut|Number=Plur|Person=1|Tense=Future|Verbform=Fin	4	parataxis	_	Translit=biǰi.
 
 # sent_id = 117
 # text = بَدَئ آ باد مأ تُونُو گو تُونُو گھأنڈی یے دِید
 # translit = bədəia bad mæ tunu ɡo tunu ɡhænḍi ye did.
-1	بَدَئ	بَدَئ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bədəia
-2	آ	آ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bad
-3	باد	باد	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mæ
-4	مأ	مأ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-5	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡo
-6	گو	گو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-7	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡhænḍi
-8	گھأنڈی	گھأنڈی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ye
-9	یے	یے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=did.
+1	بَدَئ	بَدَئ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	2	nmod	_	Translit=bədəia
+2	آ	آ	ADP	_	Case=Gen	1	case	_	Translit=bad
+3	باد	باد	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	obl	_	Translit=mæ
+4	مأ	مأ	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	Translit=tunu
+5	تُونُو	تُونُو	PRON	_	Case=Poss|Number=Sing|Person=1|Gender=Masc	6	nmod	_	Translit=ɡo
+6	گو	گو	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	7	obj	_	Translit=tunu
+7	تُونُو	تُونُو	PRON	_	Case=Poss|Number=Sing|Person=1|Gender=Masc	8	nmod	_	Translit=ɡhænḍi
+8	گھأنڈی	گھأنڈی	NOUN	_	Case=Dat|Number=Sing|Person=None|Gender=Masc	9	iobj	_	Translit=ye
+9	یے	یے	ADP	_	Case=Dat	8	case	_	Translit=did.
+10	دِید	دِید	VERB	_	Aspect=Perf|Number=Sing|Person=1|Tense=Past|Verbform=Fin	0	root	_	Translit=did
 
 # sent_id = 118
 # text = می پوئے دَش کالے بعد تُونُو بوپ سی بدَل گِھن
 # translit = mi poe dəš kale bad tunu bop si bədəl ɡhin.
-1	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-2	پوئے	پوئے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=poe
-3	دَش	دَش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=dəš
-4	کالے	کالے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kale
-5	بعد	بعد	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bad
-6	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-7	بوپ	بوپ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bop
-8	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-9	بدَل	بدَل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bədəl
-10	گِھن	گِھن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡhin.
+1	می	می	PRON	_	Case=Gen|Number=Sing|Person=3|Gender=Masc	2	nmod	_	Translit=mi
+2	پوئے	پوئے	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nsubj	_	Translit=poe
+3	دَش	دَش	NUM	_	_	5	nummod	_	Translit=dəš
+4	کالے	کالے	NOUN	_	Case=Nom|Number=Plur|Person=None|Gender=Masc	6	obl	_	Translit=kale
+5	بعد	بعد	ADV	_	_	7	advmod	_	Translit=bad
+6	تُونُو	تُونُو	PRON	_	Case=Poss|Number=Sing|Person=3|Gender=Masc	8	nmod	_	Translit=tunu
+7	بوپ	بوپ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	9	nmod	_	Translit=bop
+8	سی	سی	ADP	_	_	7	case	_	Translit=si
+9	بدَل	بدَل	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	10	obj	_	Translit=bədəl
+10	گِھن	گِھن	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=ɡhin.
 
 # sent_id = 119
 # text = آگھا سیت بَدَل تُھو لوؤ بھار کے نہ چھو
 # translit = aɡha set bədəl thu ləw bhar nə čho.
-1	آگھا	آگھا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=aɡha
-2	سیت	سیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=set
-3	بَدَل	بَدَل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bədəl
-4	تُھو	تُھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thu
-5	لوؤ	لوؤ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ləw
-6	بھار	بھار	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhar
-7	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nə
-8	نہ	نہ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čho.
+1	آگھا	آگھا	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	2	nsubj	_	Translit=aɡha
+2	سیت	سیت	ADP	_	_	1	obl	_	Translit=set
+3	بَدَل	بَدَل	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nsubj	_	Translit=bədəl
+4	تُھو	تُھو	VERB	_	Aspect=None|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	0	root	_	Translit=thu
+5	لوؤ	لوؤ	NOUN	_	Case=Nom|Number=Plur|Person=None|Gender=Masc	6	nsubj	_	Translit=ləw
+6	بھار	بھار	ADV	_	_	7	advmod	_	Translit=bhar
+7	کے	کے	ADP	_	_	8	obl	_	Translit=nə
+8	نہ	نہ	ADV	_	_	9	advmod	_	Translit=čho.
+9	چھو	چھو	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	parataxis	_	Translit=čho.
+
 
 # sent_id = 120
 # text = بَڈَغارماڜ سی بأت کے کان نہ تھا
 # translit = bəḍəɣar maṣ si bæt ke kan nə tha.
-1	بَڈَغارماڜ	بَڈَغارماڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəḍəɣar
-2	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=maṣ
-3	بأت	بأت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-4	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæt
-5	کان	کان	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ke
-6	نہ	نہ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kan
-7	تھا	تھا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nə
+1	بَڈَغار	بَڈَغار	ADJ	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	2	amod	_	Translit=bəḍəɣar
+2	ماڜ	ماڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nsubj	_	Translit=maṣ
+3	سی	سی	ADP	_	_	4	case	_	Translit=si
+4	بأت	بأت	NOUN	_	Case=Acc|Number=plur|Person=None|Gender=Fem	6	obj	_	Translit=bæt
+5	کے	کے	ADP	_	_	6	case	_	Translit=ke
+6	کان	کان	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	8	obj	_	Translit=kan
+7	نہ	نہ	ADV	_	_	8	advmod	_	Translit=nə
+8	تھا	تھا	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=tha
 
 # sent_id = 121
 # text = ہے بَئے چِھی اِیس کے زورا بات کو
 # translit = he bəe čhi eske zora bat ko.
-1	ہے	ہے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=he
-2	بَئے	بَئے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəe
-3	چِھی	چِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhi
-4	اِیس	اِیس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=eske
-5	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=zora
-6	زورا	زورا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bat
-7	بات	بات	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko.
+1	ہے	ہے	PRON	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	Translit=he
+2	بَئے	بَئے	ADJ	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	3	cop	_	Translit=bəe
+3	چِھی	چِھی	VERB	_	Aspect=None|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	0	root	_	Translit=čhi
+4	اِیس	اِیس	PRON	_	Case=Dat|Number=Sing|Person=3	5	nmod	_	Translit=eske
+5	کے	کے	ADP	_	_	4	case	_	Translit=zora
+6	زورا	زورا	ADJ	_	_	7	amod	_	Translit=bat
+7	بات	بات	NOUN	_	Case=Acc|Number=Sing|Gender=Fem	8	obj	_	Translit=ko.
+8	کو	کو	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	parataxis	_	Translit=ko.
 
 # sent_id = 122
 # text = مُھن مھیڜ بَئّ سَمانے مُوئی
 # translit = mhun mheṣ bəi səmane mui.
-1	مُھن	مُھن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhun
-2	مھیڜ	مھیڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mheṣ
-3	بَئّ	بَئّ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəi
-4	سَمانے	سَمانے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=səmane
-5	مُوئی	مُوئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mui.
+1	مُھن	مُھن	PRON	_	Case=Poss|Number=Sing|Person=1|Gender=Fem	2	nmod	_	Translit=mhun
+2	مھیڜ	مھیڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	5	nsubj	_	Translit=mheṣ
+3	بَئّ	بَئّ	NOUN	_	Case=Acc|Number=Plur|Person=None|Gender=Masc	4	obl	_	Translit=bəi
+4	سَمانے	سَمانے	ADV	_	_	5	advmod	_	Translit=səmane
+5	مُوئی	مُوئی	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=mui.
 
 # sent_id = 123
 # text = ڈَھک مِھی بات بِھیش تے مھے پیش بَمبَل ہُو
-# translit = ḍhək maṣ mhi bat bište mhe-peš bəmbəl hu.
-1	ڈَھک	ڈَھک	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ḍhək
-2	مِھی	مِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=maṣ
-3	بات	بات	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhi
-4	بِھیش	بِھیش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bat
-5	تے	تے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bište
-6	مھے	مھے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhe-peš
-7	پیش	پیش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəmbəl
-8	بَمبَل	بَمبَل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=hu.
+# translit = ḍhək mhi bat bište mhe-peš bəmbəl hu.
+1	ڈَھک	ڈَھک	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	5	nsubj	_	Translit=ḍhək
+2	مِھی	مِھی	PRON	_	Case=Poss|Number=Sing|Person=1|Gender=Fem	3	nmod	_	Translit=mhi
+3	بات	بات	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	4	obj	_	Translit=bat
+4	بِھیش	بِھیش	VERB	_	Imp|Number=None|Person=None|Tense=None|Verbform=NonFin	5	acl	_	Translit=biš
+5	تے	تے	ADP	_	_	4	mark	_	Translit=te
+6	مھے	مھے	PRON	_	Case=Dat|Number=Sing|Person=1	8	obl	_	Translit=mhe
+7	پیش	پیش	ADP	_	_	6	case	_	Translit=peš
+8	بَمبَل	بَمبَل	VERB	_	Aspect=Perf|Number=None|Person=None|Tense=None|Verbform=NonFin	9	compound	_	Translit=bəmbəl
+9	ہُو	ہُوؤ	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=hu
 
 # sent_id = 124
 # text = بَمبُو دے بوژی ما چِینی نِھگال
 # translit = bəmbu-de boǰi ma čini nhiɡal.
-1	بَمبُو	بَمبُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəmbu-de
-2	دے	دے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=boǰi
-3	بوژی	بوژی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ma
-4	ما	ما	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čini
-5	چِینی	چِینی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nhiɡal.
+1	بَمبُو	بَمبُو	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	2	obl	_	Translit=bəmbu
+2	دے	دے	ADP	_	_	1	case	_	Translit=de
+3	بوژی	بوژی	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	4	obl	_	Translit=boǰi
+4	ما	ما	ADP	_	_	3	case	_	Translit=ma
+5	چِینی	چِینی	NOUN	_	Case=Acc|Number=Sing|Gender=Fem	6	obj	_	Translit=čini
+6	نِھگال	نِھگالو	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=nhiɡal
 
 # sent_id = 125
 # text = تُو چَر زوروڑ اِی تُھو و خُدئی سی بَن تینگی نہ کو
@@ -1429,40 +1441,39 @@
 # sent_id = 126
 # text = دَرواز بَن کو شِیدل ییدُو
 # translit = dərwaz bən ko šidəl yedu.
-1	دَرواز	دَرواز	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=dərwaz
-2	بَن	بَن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bən
-3	کو	کو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko
-4	شِیدل	شِیدل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šidəl
-5	ییدُو	ییدُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=yedu.
+1	دَرواز	دَرواز	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	2	obj	_	Translit=dərwaz
+2	بَن	بَن	ADJ	_	_	3	advmod	_	Translit=bən
+3	کو	کو	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=ko
+4	شِیدل	شِیدل	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	5	nsubj	_	Translit=šidəl
+5	ییدُو	ییو	VERB	_	Aspect=Prog|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	3	parataxis	_	Translit=yedu.
 
 # sent_id = 127
-# text = بَنگا بِیلو سی بَشَرے دے بَھان نہ پَھرا
-# translit = ubːbəŋabilo si bəšərede bhan nə-phəra.
-1	بَنگا	بَنگا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ubːbəŋabilo
-2	بِیلو	بِیلو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-3	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəšərede
-4	بَشَرے	بَشَرے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhan
-5	دے	دے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nə-phəra.
+# text = بَنگا بِیلو بَھان نہ پَھرا
+# translit = ubːbəŋabilo bhan nə-phəra.
+1	بَنگا بِیلو	بَنگا بِیلو	PNOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	2	nmod	_	Translit=ubːbəŋabilo
+2	بَھان	بَھان	NOUN	_	Case=Acc|Number=Plur|Person=None|Gender=Masc	4	obj	_	Translit=bhan
+3	نہ	نہ	ADV	_	_	4	advmod	_	Translit=nə
+4	پَھرا	پَھرا	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=phəra
 
 # sent_id = 128
 # text = مأ چِھی کأ لَمسَئ بَتَھرُودُو
 # translit = mæ čhi kæ ləmsəi bəthərudu
-1	مأ	مأ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mæ
-2	چِھی	چِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhi
-3	کأ	کأ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kæ
-4	لَمسَئ	لَمسَئ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ləmsəi
-5	بَتَھرُودُو	بَتَھرُودُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəthərudu
+1	مأ	مأ	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	Translit=mæ
+2	چِھی	چِھی	PRON	_	Case=Poss|Number=Plur|Person=2|Gender=Masc	3	nmod	_	Translit=čhi
+3	کأ	کأ	ADP	_	_	2	case	_	Translit=kæ
+4	لَمسَئ	لَمسَئ	NOUN	_	Case=Acc|Number=Sing|Gender=Masc	5	obj	_	Translit=ləmsəi
+5	بَتَھرُودُو	بَتَھرُو	VERB	_	Aspect=Perf|Number=Sing|Person=1|Tense=Pres|Verbform=Fin	0	root	_	Translit=bəthərudu
 
 # sent_id = 129
 # text = اِی سِی پوئے جوأری می چَر پیس بَیَلأت
 # translit = isi poe ǰoæri mi čər pes bəyəlæt.
-1	اِی	اِی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=isi
-2	سِی	سِی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=poe
-3	پوئے	پوئے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ǰoæri
-4	جوأری	جوأری	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-5	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čər
-6	چَر	چَر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=pes
-7	پیس	پیس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəyəlæt.
+1	اِیسی	اِیسی	PRON	_	Case=Poss|Number=Sing|Person=3|Gender=Masc	2	nmod	_	Translit=isi
+2	پوئے	پوئے	NOUN	_	Case=Nom|Number=Plur|Person=None|Gender=Masc	4	nsubj	_	Translit=poe
+3	جوأری	جوأری	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	5	obl	_	Translit=ǰoæri
+4	می	می	ADP	_	_	3	case	_	Translit=mi
+5	چَر	چَر	ADV	_	_	6	advmod	_	Translit=čər
+6	پیس	پیس	NOUN	_	Case=Acc|Number=Plur|Person=None|Gender=Masc	7	obj	_	Translit=pes
+7	بَیَلأت	بَیَلأت	VERB	_	Aspect=Perf|Number=Plur|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=bəyəlæt.
 
 # sent_id = 130
 # text = بُھوم بیڙتے ہَلَئی کو، بِھی بِش تھیلدے بَدَئی کو
@@ -1478,114 +1489,114 @@
 9	کو	کو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko.
 
 # sent_id = 131
-# text = تُو مے ڙأت کےکَیَیل کودُو بأ؟
+# text = تُو مے ڙأت کےکَیَیل کودُو 
 # translit = tu me ẓæt ke kəǰəl kodu bæ?
-1	تُو	تُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tu
-2	مے	مے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=me
-3	ڙأت	ڙأت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ẓæt
-4	کےکَیَیل	کےکَیَیل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ke
-5	کودُو	کودُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kəǰəl
-6	بأ؟	بأ؟	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kodu
+1	تُو	تُو	PRON	_	Case=Nom|Number=Sing|Person=2	4	nsubj	_	Translit=tu
+2	مے	مے	PRON	_	Case=Gen|Number=Sing|Person=3|Gender=Fem	3	det	_	Translit=me
+3	ڙأت	ڙأت	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	4	obl	_	Translit=ẓæt
+4	کے	کے	ADP	_	_	3	case	_	Translit=ke
+5	کَیَیل	کَیَیل	PRON	_	_	6	obj	_	Translit=kəǰəl
+6	کودُو	کوو	VERB	_	Aspect=Prog|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=kodu
 
 # sent_id = 132
 # text = بأل ڙأت کے سَخ بُھومیل أبی شی
-# translit = bæl ẓæt ke səx bhumel æp-iši.
-1	بأل	بأل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæl
-2	ڙأت	ڙأت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ẓæt
-3	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ke
-4	سَخ	سَخ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=səx
-5	بُھومیل	بُھومیل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhumel
-6	أبی	أبی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=æp-iši.
+# translit = bæl ẓæt ke səx bhumel æbi ši.
+1	بأل	بأل	ADV	_	Case=|Gender=|Number=|Person=	2	advmod	_	Translit=bæl
+2	ڙأت	ڙأت	NOUN	_	_	3	obl	_	Translit=ẓæt
+3	کے	کے	ADP	_	_	2	case	_	Translit=ke
+4	سَخ	سَخ	ADJ	_	_	5	amod	_	Translit=səx
+5	بُھومیل	بُھومیل	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	6	nsubj	_	Translit=bhumel
+6	أبی شی	أبی شی	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=æp-iši.
 
 # sent_id = 133
 # text = چِھی موم سَرکار سی نَوکَر کے بأر دیدے تُونُو کام کوآت
 # translit = čhi mom sərkar si nəukər ke bær dede tunu kam koat.
-1	چِھی	چِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhi
-2	موم	موم	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mom
-3	سَرکار	سَرکار	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=sərkar
-4	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-5	نَوکَر	نَوکَر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nəukər
-6	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ke
-7	بأر	بأر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bær
-8	دیدے	دیدے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=dede
-9	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-10	کام	کام	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kam
-11	کوآت	کوآت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=koat.
+1	چِھی	چِھی	PRON	_	Case=Poss|Number=Sing|Person=2|Gender=Masc	2	nmod	_	Translit=čhi
+2	موم	موم	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	5	nsubj	_	Translit=mom
+3	سَرکار	سَرکار	NOUN	_	Case=Gen|Number=Sing|Person=None|Gender=Fem	4	nmod	_	Translit=sərkar
+4	سی	سی	ADP	_	_	3	case	_	Translit=si
+5	نَوکَر	نَوکَر	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	6	obj	_	Translit=nəukər
+6	کے	کے	ADP	_	_	5	case	_	Translit=ke
+7	بأر	بأر	NOUN	_	Case=Acc|Number=sing|Gender=Masc	8	obj	_	Translit=bær
+8	دیدے	دیدے	VERB	_	Aspect=Perf|Number=None|Person=None|Tense=None|Verbform=NonFin	9	acl	_	Translit=dede
+9	تُونُو	تُونُو	PRON	_	Case=Poss|Number=Sing|Person=3|Gender=Neut	10	nmod	_	Translit=tunu
+10	کام	کام	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	11	obj	_	Translit=kam
+11	کوآت	کوآت	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=koat.
 
 # sent_id = 134
 # text = مِھی گیئ یے جُھومُو بأس جیأت
 # translit = mhi ɡei e ǰhumu bǣs ǰeǣt.
-1	مِھی	مِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhi
-2	گیئ	گیئ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡei
-3	یے	یے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=e
-4	جُھومُو	جُھومُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ǰhumu
-5	بأس	بأس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bǣs
-6	جیأت	جیأت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ǰeǣt.
+1	مِھی	مِھی	PRON	_	Case=Poss|Number=Sing|Person=	2	nmod	_	Translit=mhi
+2	گیئ	گیئ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	5	nsubj	_	Translit=ɡei
+3	یے	یے	ADP	_	_	2	aux	_	Translit=e
+4	جُھومُو	جُھومُو	ADV	_	_	5	adv	_	Translit=ǰhumu
+5	بأس	بأس	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	6	obj	_	Translit=bǣs
+6	جیأت	جیأت	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past|Verbform=Fin	0	root	_	Translit=ǰeǣt.
 
 # sent_id = 135
-# text = تُو مھو سیت نَڑُو میں بیأسے ہو!
-# translit = tu mho set nəṛu me bæsi ho!
-1	تُو	تُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tu
-2	مھو	مھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mho
-3	سیت	سیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=set
-4	نَڑُو	نَڑُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nəṛu
-5	میں	میں	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=me
-6	بیأسے	بیأسے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæsi
-7	ہو!	ہو!	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ho!
+# text = تُو مھو سیت نَڑُو میں بیأسے ہو
+# translit = tu mho set nəṛu me bæsi ho
+1	تُو	تُو	PRON	_	Case=Nom|Number=Sing|Person=2	6	nsubj	_	Translit=tu
+2	مھو	مھو	PRON	_	Case=Poss|Number=Plur|Person=1|Gender=Masc	3	nmod	_	Translit=mho
+3	سیت	سیت	ADP	_	_	2	case	_	Translit=set
+4	نَڑُو	نَڑُو	VERB	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	5	obl	_	Translit=nəṛu
+5	میں	میں	ADP	_	_	4	case	_	Translit=me
+6	بیأسے	بیأسے	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	7	obj	_	Translit=bæsi
+7	ہو	ہو	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=ho!
 
 # sent_id = 136
 # text = کھے چِھن و آ بأٹ آ لھات
 # translit = khe čhin o a bæṭa lhat.
-1	کھے	کھے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=khe
-2	چِھن	چِھن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhin
-3	و	و	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=o
-4	آ	آ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=a
-5	بأٹ	بأٹ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæṭa
-6	آ	آ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=lhat.
+1	کھے	کھے	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	2	nsub	_	Translit=khe
+2	چِھن	چِھن	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Fem	0	root	_	Translit=čhin
+3	و	و	CONJ	_	_	4	mark	_	Translit=o
+4	آ	آ	PRON	_	Case=Nom|Number=Sing|Person=1|Gender=None	6	nsub	_	Translit=a
+5	بأٹ آ	بأٹ آ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	6	obl	_	Translit=bæṭa
+6	لھات	لھوؤ	ADJ	_	_	5	case	_	Translit=lhat.
 
 # sent_id = 137
 # text = کوژو بأٹ کیدے صُندُوق می تھا
 # translit = koǰo bæṭ kede sunduq mi tha.
-1	کوژو	کوژو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=koǰo
-2	بأٹ	بأٹ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæṭ
-3	کیدے	کیدے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kede
-4	صُندُوق	صُندُوق	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=sunduq
-5	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-6	تھا	تھا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tha.
+1	کوژو	کوژو	NOUN	_	Case=Acc|Number=Plur|Person=None|Gender=Masc	2	obj	_	Translit=koǰo
+2	بأٹ	بأٹ	VERB	_	Aspect=Imp|Number=None|Person=None|Tense=None|Verbform=NonFin	3	Advcl	_	Translit=bæṭ
+3	کیدے	کوؤ	ADP	_	_	2	mark	_	Translit=kede
+4	صُندُوق	صُندُوق	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	5	obl	_	Translit=sunduq
+5	می	می	ADP	_	_	4	case	_	Translit=mi
+6	تھا	تھا	VERB	_	Aspect=Imp|Number=Plur|Person=2|Tense=Pres|Verbform=Fin	0	root	_	Translit=tha.
 
 # sent_id = 138
 # text = تی رَخ بأڙُودُو اَسے لا نُوڇُوبُودُو
 # translit = ti rəx bæẓudu ase la nuc̣ubudu.
-1	تی	تی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ti
-2	رَخ	رَخ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=rəx
-3	بأڙُودُو	بأڙُودُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bæẓudu
-4	اَسے	اَسے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ase
-5	لا	لا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=la
-6	نُوڇُوبُودُو	نُوڇُوبُودُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nuc̣ubudu.
+1	تی	تی	PRON	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	3	nsubj	_	Translit=ti
+2	رَخ	رَخ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	3	obj	_	Translit=rəx
+3	بأڙُودُو	بأڙُو	VERB	_	Aspect=Perf|Tense=Pres|Number=Sing|Person=3|Verbform=Fin	0	root	_	Translit=bæẓudu
+4	اَسے	اَسے	CONJ	_	_	5	cc	_	Translit=ase
+5	لا	لا	ADV	_	_	6	advmod	_	Translit=la
+6	نُوڇُوبُودُو	نُوڇُوبُو	VERB	_	Aspect=Neg|Tense=Past|Number=Sing|Person=3|Verbform=Fin	3	parataxis	_	Translit=nuc̣ubudu.
 
 # sent_id = 139
 # text = تھیئے تُنو ڈھک باپ بے آسرا آ چھوؤ
 # translit = thee tunu ḍhək bap be asəra čhou
-1	تھیئے	تھیئے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thee
-2	تُنو	تُنو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-3	ڈھک	ڈھک	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ḍhək
-4	باپ	باپ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bap
-5	بے	بے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=be
-6	آسرا	آسرا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=asəra
-7	آ	آ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhou
+1	تھیئے	تھیئے	PRON	_	Case=Nom|Number=Plur|Person=3|Gender=Masc	3	nsubj	_	Translit=thee
+2	تُنو	تُنو	PRON	_	Case=Poss|Number=Sing|Person=3|Gender=Masc	4	nmod	_	Translit=tunu
+3	ڈھک	ڈھک	ADJ	_	_	4	amod	_	Translit=ḍhək
+4	باپ	باپ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	5	obj	_	Translit=bap
+5	بے آسرا	بے آسرا	ADJ	_	_	6	obl	_	Translit=be
+6	آ	آ	AUX	_	Aspect=Perf|Number=None|Person=None|Tense=None|Verbform=NonFin	7	aux	_	Translit=asəra
+7	چھوؤ	چھوؤ	VERB	_	Aspect=Perf|Number=Sing|Person=None|Tense=Past|Verbform=Fin	0	root	_	Translit=čhou
 
 # sent_id = 140
 # text = أ بیدَرَم رَپَل مِھی داد سی وَخ سی تُھو
 # translit = æ bedərəm rəpəl mhi dad si wəx si thu.
-1	أ	أ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=æ
-2	بیدَرَم	بیدَرَم	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bedərəm
-3	رَپَل	رَپَل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=rəpəl
-4	مِھی	مِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhi
-5	داد	داد	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=dad
-6	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-7	وَخ	وَخ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=wəx
-8	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-9	تُھو	تُھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thu.
+1	أ	أ	PRON	_	Case=Nom|Number=Sing	3	nsub	_	Translit=æ
+2	بیدَرَم	بیدَرَم	ADJ	_	_	3	amod	_	Translit=bedərəm
+3	رَپَل	رَپَل	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	6	nsubj	_	Translit=rəpəl
+4	مِھی	مِھی	PRON	_	Case=Poss|Number=Plur|Person=1	5	nmod	_	Translit=mhi
+5	داد	داد	NOUN	_	Case=Gen|Number=Sing|Person=None|Gender=Masc	6	nmod	_	Translit=dad
+6	سی	سی	ADP	_	_	5	case	_	Translit=si
+7	وَخ	وَخ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	8	obl	_	Translit=wəx
+8	سی	سی	ADP	_	_	7	case	_	Translit=si
+9	تُھو	تُھو	VERB	_	Aspect=None|Tense=Pres|Number=Sing|Person=None|Verbform=Fin	0	root	_	Translit=thu.
 
 # sent_id = 141
 # text = بیکِھن پھیرِی و ماڑکے ییژی
@@ -1599,144 +1610,138 @@
 # sent_id = 142
 # text = بیل آ ناژور اَشُو اَسے آش آ صاب تُھو
 # translit = bel a nažor ašu ase aš a sab thu
-1	بیل	بیل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bel
-2	آ	آ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=a
-3	ناژور	ناژور	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=nažor
-4	اَشُو	اَشُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ašu
-5	اَسے	اَسے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ase
-6	آش	آش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=aš
-7	آ	آ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=a
-8	صاب	صاب	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=sab
-9	تُھو	تُھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thu
+1	بیل	بیل	ADV	_	Case=|Gender=|Number=|Person=	2	advmod	_	Translit=bel
+2	آ	آ	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsub	_	Translit=a
+3	ناژور	ناژور	ADJ	_	_	4	amod	_	Translit=nažor
+4	اَشُو	تھو	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=1|Verbform=Fin	0	root	_	Translit=ašu
+5	اَسے	اَسے	CONJ	_	_	6	cc	_	Translit=ase
+6	آش	آش	ADV	_	_	7	advmod	_	Translit=aš
+7	آ	آ	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsub	_	Translit=a
+8	صاب	صاب	ADJ	_	_	9	amod	_	Translit=sab
+9	تُھو	تُھو	VERB	_	Aspect=None|Tense=Pres|Number=Sing|Person=1|Verbform=Fin	0	root	_	Translit=thu
 
 # sent_id = 143
 # text = آش چَر شِیدیل بیلأئی چَلَژی
 # translit = aš čər šidel belæi čələǰi.
-1	آش	آش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=aš
-2	چَر	چَر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čər
-3	شِیدیل	شِیدیل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šidel
-4	بیلأئی	بیلأئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=belæi
-5	چَلَژی	چَلَژی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čələǰi.
+1	آش	آش	ADV	_	_	3	advmod	_	Translit=aš
+2	چَر	چَر	ADV	_	_	3	advmod	_	Translit=čər
+3	شِیدیل	شِیدیل	ADJ	_	Gender=Fem	4	amod	_	Translit=šidel
+4	بیلأئی	بیلأئی	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	5	nsubj	_	Translit=belæi
+5	چَلَژی	چلُو	X	_	Aspect=Prog|Tense=Pres|Number=Sing|Person=3|Gender=Fem	0	root	_	Translit=čələǰi.
 
 # sent_id = 144
 # text = تُو ٹِھنجَدُو تھیزید بیلأئی ڜأت چِی کو؟
 # translit = tu ṭhinǰədu thezet belæi ṣæt či ko?
-1	تُو	تُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tu
-2	ٹِھنجَدُو	ٹِھنجَدُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ṭhinǰədu
-3	تھیزید	تھیزید	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thezet
-4	بیلأئی	بیلأئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=belæi
-5	ڜأت	ڜأت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ṣæt
-6	چِی	چِی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=či
-7	کو؟	کو؟	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko?
+1	تُو	تُو	PRON	_	_	2	nsubj	_	Translit=tu
+2	ٹِھنجَدُو	ٹھینجُو	VERB	_	Aspect=Prog|Tense=Pres|Number=Sing|Person=2	0	root	_	Translit=ṭhinǰədu
+3	تھیزید	تھیزید	PRON	_	Case=Dat|Number=Sing|Person=2	4	obl	_	Translit=thezet
+4	بیلأئی	بیلأئی	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	5	nsubj	_	Translit=belæi
+5	ڜأت	ݜیُو	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	6	aux	_	Translit=ṣæt
+6	چِی	چِی	VERB	_	Aspect=None|Tense=Pres|Number=Sing|Person=3	0	root	_	Translit=či
+7	کو؟	کو؟	ADV	_	Case=None|Number=None|Person=None	06	advmod	_	Translit=ko?
 
 # sent_id = 145
 # text = تُونُو لوؤ بیلی ما پَتکے کو ای لار بَژَنِین
 # translit = tunu ləw beli ma pətke ko i lar bəǰnin.
-1	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-2	لوؤ	لوؤ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ləw
-3	بیلی	بیلی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=beli
-4	ما	ما	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ma
-5	پَتکے	پَتکے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=pətke
-6	کو	کو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko
-7	ای	ای	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=i
-8	لار	لار	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=lar
-9	بَژَنِین	بَژَنِین	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bəǰnin.
+1	تُونُو	تُونُو	PRON	_	Case=Poss|Number=Sing|Person=None|Gender=Masc	2	nmod	_	Translit=tunu
+2	لوؤ	لوؤ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	4	obj	_	Translit=ləw
+3	بیلی	بیلی	NOUN	_	Case=Loc|Number=Sing|Person=None|Gender=Fem	4	obl	_	Translit=beli
+4	ما	ما	ADP	_	Case=Loc	3	case	_	Translit=ma
+5	پَتکے	پَتکے	ADV	_	_	6	advmod	_	Translit=pətke
+6	کو	کو	VERB	_	Aspect=Imp|Tense=Pres|Number=Plur|Person=2|Verbform=Fin	0	root	_	Translit=ko
+7	ای	ای	PRON	_	Case=Nom|Number=Sing	9	nsubj	_	Translit=i
+8	لار	لار	VERB	_	_	9	aux	_	Translit=lar
+9	بَژَنِین	بَژُو	VERB	_	Aspect=Fut|Tense=Fut|Number=Sing|Person=3|Gender=Masc	6	parataxis	_	Translit=bəǰnin.
 
 # sent_id = 146
 # text = مِھی یاد نہ ییدُو ای مھے سیت کا بیلِم کی شُو
 # translit = mhi yad ne yedu i mhe set ka belim ki šu.
-1	مِھی	مِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhi
-2	یاد	یاد	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=yad
-3	نہ	نہ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ne
-4	ییدُو	ییدُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=yedu
-5	ای	ای	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=i
-6	مھے	مھے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhe
-7	سیت	سیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=set
-8	کا	کا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ka
-9	بیلِم	بیلِم	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=belim
-10	کی	کی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ki
-11	شُو	شُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šu.
+1	مِھی	مِھی	PRON	_	Case=Dat|Number=Sing|Person=1	2	obl	_	Translit=mhi
+2	یاد	یاد	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	3	nsubj	_	Translit=yad
+3	نہ	نہ	ADV	_	_	4	advmod	_	Translit=ne
+4	ییدُو	ییو	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	0	root	_	Translit=yedu
+5	ای	ای	PRON	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	Translit=i
+6	مھے	مھے	PRON	_	Case=Poss|Number=Sing|Person=1	8	nmod	_	Translit=mhe
+7	سیت	سیت	ADP	_	_	6	case	_	Translit=set
+8	کا	کا	PRON	_	Case=Acc	10	obj	_	Translit=ka
+9	بیلِم	بیلِم	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	10	nsubj	_	Translit=belim
+10	کی	کی	VERB	_	Verb|Aspect=Perf|Tense=Past|Number=None|Person=3|Gender=Masc	4	acl	_	Translit=ki
+11	شُو	دو	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	10	cop	_	Translit=šu.
 
 # sent_id = 147
 # text = رَپَل سی بیشل پاک کو ای زانگ گات تُو
 # translit = rəpəl si bešəl pak ko i zaŋ ɡat tu.
-1	رَپَل	رَپَل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=rəpəl
-2	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-3	بیشل	بیشل	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bešəl
-4	پاک	پاک	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=pak
-5	کو	کو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko
-6	ای	ای	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=i
-7	زانگ	زانگ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=zaŋ
-8	گات	گات	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡat
-9	تُو	تُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tu.
+1	رَپَل	رَپَل	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	3	nsub	_	Translit=rəpəl
+2	سی	سی	ADP	_	Case=Gen	1	case	_	Translit=si
+3	بیشل	بیشل	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	6	obl	_	Translit=bešəl
+4	پاک	پاک	ADJ	_	_	6	amod	_	Translit=pak
+5	کو	کو	VERB	_	Aspect=Imp|Tense=Pres|Number=Plur|Person=2|Verbform=Fin	0	root	_	Translit=ko
+6	ای	ای	PRON	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	8	nsubj	_	Translit=i
+7	زانگ	زانگ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	8	obj	_	Translit=zaŋ
+8	گات	گات	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	9	aux	_	Translit=ɡat
+9	تُو	تُو	VERB	_	Aspect=None|Tense=Pres|Number=Sing|Person=3|Gender=None	0	root	_	Translit=tu.
 
 # sent_id = 148
 # text = آسمان زیت بیت چِھی کو اگھا تُھو؟
 # translit = asman zet ui:bet čhi ko aɡha thu.
-1	آسمان	آسمان	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=asman
-2	زیت	زیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=zet
-3	بیت	بیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ui:bet
-4	چِھی	چِھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=čhi
-5	کو	کو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ko
-6	اگھا	اگھا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=aɡha
-7	تُھو؟	تُھو؟	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thu.
+1	آسمان	آسمان	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	2	nsubj	_	Translit=asman
+2	زیت	زیت	ADP	_	Case=Loc	1	case	_	Translit=zet
+3	بیت	بیت	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	4	nsubj	_	Translit=ui:bet
+4	چِھی	چِھی	VERB	_	Aspect=None|Tense=Pres|Number=Sing|Person=3|Gender=None	0	root	_	Translit=čhi
+5	کو	کو	CONJ	_	_	6	cc	_	Translit=ko
+6	اگھا	اگھا	NOUN	_	Case=Nom|Number=Plur|Person=None|Gender=Masc	7	nsubj	_	Translit=aɡha
+7	تُھو؟	تُھو؟	VERB	_	Aspect=None|Tense=Pres|Number=Plur|Person=3	4	parataxis	_	Translit=thu.
 
 # sent_id = 149
 # text = بے ٹھوآ کَم دے ماڜ لاڜ معلوم ہودُو
 # translit = beṭhoa kəm de maṣ laṣ malum hodu.
-1	بے	بے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=beṭhoa
-2	ٹھوآ	ٹھوآ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kəm
-3	کَم	کَم	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=de
-4	دے	دے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=maṣ
-5	ماڜ	ماڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=laṣ
-6	لاڜ	لاڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=malum
-7	معلوم	معلوم	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=hodu.
+1	بے ٹھوآ	بے ٹھوآ	ADJ	_	_	2	amod	_	Translit=beṭhoa
+2	کَم	کام	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	3	obl	_	Translit=kəm
+3	دے	دے	ADP	_	Case=Abl	2	case	_	Translit=de
+4	ماڜ	ماڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	5	nsubj	_	Translit=maṣ
+5	لاڜ	لاڜ	ADJ	_	_	6	amod	_	Translit=laṣ
+6	معلوم	معلوم	NOUN	_	_	7	aux	_	Translit=malum
+7	ہودُو	ہوؤ	VERB	_	Aspect=Imp|Tense=Pres|Number=Sing|Person=3	0	root	_	Translit=hodu.
 
 # sent_id = 150
 # text = اِ تُونُو سیرأن دُوئی ما می بیوانِین
 # translit = i tunu seræn dui ma mi bewanin.
-1	اِ	اِ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=i
-2	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-3	سیرأن	سیرأن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=seræn
-4	دُوئی	دُوئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=dui
-5	ما	ما	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ma
-6	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-7	بیوانِین	بیوانِین	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bewanin.
+1	اِ	اِ	PRON	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	Translit=i
+2	تُونُو	تُونُو	PRON	_	Case=Poss|Number=Sing|Person=None	3	nmod	_	Translit=tunu
+3	سیرأن	سیرأن	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	4	obj	_	Translit=seræn
+4	دُوئی	دُوئی	ADJ	_	_	5	nmod	_	Translit=dui
+5	ما	ما	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	6	obl	_	Translit=ma
+6	می	می	ADP	_	_	5	case	_	Translit=mi
+7	بیوانِین	بیوؤ	VERB	_	Aspect=Fut|Tense=Fut|Number=Sing|Person=3|Gender=Masc	0	root	_	Translit=bewanin.
 
 # sent_id = 151
 # text = أ پو بیخی تُنُو بوپ زیت گودُو
 # translit = æ po bexi tunu bop zet kodu
-1	أ	أ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=æ
-2	پو	پو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=po
-3	بیخی	بیخی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bexi
-4	تُنُو	تُنُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-5	بوپ	بوپ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bop
-6	زیت	زیت	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=zet
-7	گودُو	گودُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kodu
+1	أ	أ	PRON	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	2	nsubj	_	Translit=æ
+2	پو	پو	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nsubj	_	Translit=po
+3	بیخی	بیخی	ADV	_	_	4	advmod	_	Translit=bexi
+4	تُنُو	تُنُو	PRON	_	Case=Poss|Number=Sing|Person=None	6	nmod	_	Translit=tunu
+5	بوپ	بوپ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	6	obl	_	Translit=bop
+6	زیت	زیت	ADP	_	_	5	case	_	Translit=zet
+7	گودُو	بیو	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	0	root	_	Translit=kodu
 
 # sent_id = 152
 # text = توال سی مُوش کے بیں سی اے تَھام اَشُو
 # translit = towal si muške be~ si e tham ašu.
-1	توال	توال	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=towal
-2	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-3	مُوش	مُوش	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=muške
-4	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=be~
-5	بیں	بیں	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-6	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=e
-7	اے	اے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tham
-8	تَھام	تَھام	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ašu.
+1	توال	توال	PNOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	3	nsubj	_	Translit=towal
+2	سی	سی	ADP	_	_	1	case	_	Translit=si
+3	مُوش کے	مُوش کے	ADP	_	_	5	obl	_	Translit=muške
+4	بیں	بیں	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	6	nmod	_	Translit=be~
+5	سی	سی	ADP	_	_	4	case	_	Translit=si
+6	اے	اے	DET	_	Number=Sing	7	det	_	Translit=e
+7	تَھام	تَھام	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	8	nsubj	_	Translit=tham
+8	اَشُو	اَشُو	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	0	root	_	Translit=ašu.
 
 # sent_id = 153
-# text = شِیر لیپ تے جَوَئی تَلَئی سی بھا دید
-# translit = šir lepte bad mi ǰəwəi tələi si bha did.
-1	شِیر	شِیر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šir
-2	لیپ	لیپ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=lepte
-3	تے	تے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bad
-4	جَوَئی	جَوَئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-5	تَلَئی	تَلَئی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ǰəwəi
-6	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tələi
-7	بھا	بھا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-8	دید	دید	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bha
+# text = شِیر لیپ 
+# translit = šir lep
+1	شِیر	شِیر	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	2	obj	_	Translit=šir
+2	لیپ	لیپ	VERB	_	Aspect=Imp|Tense=Pres|Number=Sing|Person=2|Gender=None	0	root	_	Translit=lepte
 
 # sent_id = 154
 # text = کال گے بان وا گئی و مھو کیش بھاکتے گھیت ہونین
@@ -1753,93 +1758,94 @@
 # sent_id = 155
 # text = تی بھان پَڙَوؤ سی کأ تھأ أنگَر کے گِھیندے گأ
 # translit = ti bhan pəẓəu si kæ thæ æŋɡər ke ɡhinde ɡa.
-1	تی	تی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ti
-2	بھان	بھان	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhan
-3	پَڙَوؤ	پَڙَوؤ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=pəẓəu
-4	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-5	کأ	کأ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kæ
-6	تھأ	تھأ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thæ
-7	أنگَر	أنگَر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=æŋɡər
-8	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ke
-9	گِھیندے	گِھیندے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡhinde
-10	گأ	گأ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡa.
+1	تی	تی	PRON	_	Case=Nom|Number=Sing|Person=3|Gender=Masc	3	nsubj	_	Translit=ti
+2	بھان	بھان	NOUN	_	Case=Acc|Number=Plur|Person=None|Gender=Masc	3	obj	_	Translit=bhan
+3	پَڙَوؤ	پَڙَوؤ	VERB	_	Aspect=None|Tense=None|Verbform=Inf|Number=None|Person=None|Gender=None	4	acl	_	Translit=pəẓəu
+4	سی	سی	ADP	_	Case=Purpose	3	case	_	Translit=si
+5	کأ	کأ	ADP	_	Case=Acc|Number=Plur|Person=3|Gender=Masc	6	obj	_	Translit=kæ
+6	تھأ	تھأ	PRON	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	7	obl	_	Translit=thæ
+7	أنگَر	أنگَر	NOUN	_	Case=Gen	6	case	_	Translit=æŋɡər
+8	کے	کے	ADP	_	Case=Loc	6	nmod	_	Translit=ke
+9	گِھیندے	گھینُو	VERB	_	_	10	root	_	Translit=ɡhinde
+10	گأ	گأ	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	0	root	_	Translit=ɡa.
 
 # sent_id = 156
 # text = أ بھاڜ مھیدیک شَلا سی گَھنڈُو سی کأ لَوؤ تُھو
 # translit = æ bhaṣ mhedek šəla si ɡhənḍu si kæ ləw thu.
-1	أ	أ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=æ
-2	بھاڜ	بھاڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhaṣ
-3	مھیدیک	مھیدیک	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhedek
-4	شَلا	شَلا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šəla
-5	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-6	گَھنڈُو	گَھنڈُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡhənḍu
-7	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-8	کأ	کأ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=kæ
-9	لَوؤ	لَوؤ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ləw
-10	تُھو	تُھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thu.
+1	أ	أ	PRON	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	Translit=æ
+2	بھاڜ	بھاڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	9	nsubj	_	Translit=bhaṣ
+3	مھیدیک	مھیدیک	ADJ	_	_	4	amod	_	Translit=mhedek
+4	شَلا	شَلا	NOUN	_	Case=Gen|Number=Plur|Person=None|Gender=Masc	5	obl	_	Translit=šəla
+5	سی	سی	ADP	_	Case=Gen	4	case	_	Translit=si
+6	گَھنڈُو	گَھنڈُو	VERB	_	Verbform=Inf	7	acl	_	Translit=ɡhənḍu
+7	سی	سی	ADP	_	Case=Purpose	6	case	_	Translit=si
+8	کأ	کأ	ADP	_	Case=Purpose	7	case	_	Translit=kæ
+9	لَوؤ	لَوؤ	ADJ	_	Gender=Masc	10	amod	_	Translit=ləw
+10	تُھو	تُھو	Aux	_	Aspect=None|Tense=Pres|Number=Sing|Person=3	0	root	_	Translit=thu.
 
 # sent_id = 157
 # text = لا بَدشکال اَشُو دا مھو بِڜا ہُوئی
 # translit = la bədəškal ašuda mho biṣa hui.
-1	لا	لا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=la
-2	بَدشکال	بَدشکال	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bədəškal
-3	اَشُو	اَشُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ašuda
-4	دا	دا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mho
-5	مھو	مھو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=biṣa
-6	بِڜا	بِڜا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=hui.
+1	لا	لا	ADV	_	_	2	advmod	_	Translit=la
+2	بَدشکال	بَدشکال	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	3	nsubj	_	Translit=bədəškal
+3	اَشُو	اَشُو	AUX	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Masc	0	root	_	Translit=ašu
+4	دا	دا	CONJ	_	_	5	cc	_	Translit=da
+5	مھو	مھو	PRON	_	Case=Acc|Number=Plur|Person=1	6	nsubj	_	Translit=mho
+6	بِڜا	بِڜا	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	7	nsubj	_	Translit=biṣa
+6	ہُوئی	ہُوئی	verb	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3	3	conj	_	Translit=hui
 
 # sent_id = 158
 # text = مے گھا سی بَھئ می کھیدیک گأر تھی
 # translit = me ɡha si bhəi mi khedek ɡær thi?
-1	مے	مے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=me
-2	گھا	گھا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡha
-3	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-4	بَھئ	بَھئ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhəi
-5	می	می	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mi
-6	کھیدیک	کھیدیک	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=khedek
-7	گأر	گأر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡær
-8	تھی	تھی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thi?
+1	مے	مے	PRON	_	Case=Gen|Number=Sing|Person=3|Gender=Fem	3	nmod	_	Translit=me
+2	گھا	گھا	NOUN	_	Case=Gen|Number=Sing|Person=None|Gender=Masc	3	nmod	_	Translit=ɡha
+3	سی	سی	ADP	_	Case=Gen	2	case	_	Translit=si
+4	بَھئ	بَھئ	NOUN	_	Case=Loc|Number=Sing|Person=None|Gender=Masc	6	obl	_	Translit=bhəi
+5	می	می	ADP	_	Case=Loc	4	case	_	Translit=mi
+6	کھیدیک	کھیدیک	DET	_	Number=Plur	7	nsubj	_	Translit=khedek
+7	گأر	گأر	NOUN	_	Case=Nom|Number=Plur|Person=None|Gender=Fem	8	nsubj	_	Translit=ɡær
+8	تھی	تھو	VERB	_	Aspect=None|Tense=Pres|Number=Plur|Person=3|Gender=Masc	0	root	_	Translit=thi?
 
 # sent_id = 159
 # text = خُدا تھے یے نیگی سی بَھلا دو
 # translit = xuda theye neɡi si bhəla do.
-1	خُدا	خُدا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=xuda
-2	تھے	تھے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=theye
-3	یے	یے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=neɡi
-4	نیگی	نیگی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=si
-5	سی	سی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhəla
-6	بَھلا	بَھلا	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=do.
+1	خُدا	خُدا	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	4	nsubj	_	Translit=xuda
+2	تھے یے	تھے یے	PRON	_	Case=Acc|Number=Plur|Person=2	4	iobj	_	Translit=theye
+3	نیگی	نیگی	NOUN	_	Case=Gen|Number=Sing|Person=None|Gender=Fem	5	nmod	_	Translit=neɡi
+4	سی	سی	ADP	_	Case=Gen	3	case	_	Translit=si
+5	بَھلا	بَھلا	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	6	obj	_	Translit=bhəla
+6	دو	دے	VERB	_	Aspect=Imp|Tense=None|Number=Sing|Person=3	0	root	_	Translit=do.
 
 # sent_id = 160
 # text = تے بَھلَس گَن ماڜ ما گھان دیدُو
 # translit = te bhələsɡən maṣ ma ɡhan dedu.
-1	تے	تے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=te
-2	بَھلَس	بَھلَس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhələsɡən
-3	گَن	گَن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=maṣ
-4	ماڜ	ماڜ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ma
-5	ما	ما	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ɡhan
-6	گھان	گھان	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=dedu.
+1	تے	تے	PRON	_	Case=Gen|Number=Sing|Person=3	3	nmod	_	Translit=te
+2	بَھلَس گَن	بَھلَس گَن	ADJ	_	Gender=Masc	3	amod	_	Translit=bhələsɡən
+3	ماڜ	ماڜ	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Masc	6	nsubj	_	Translit=maṣ
+4	ما	ما	ADP	_	Case=Abl	3	case	_	Translit=ma
+5	گھان	گھان	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	6	nsubj	_	Translit=ɡhan
+6	دیدُو	دیو	VERB	_	Aspect=Imp|Tense=Pres|Number=Sing|Person=3|Gender=Fem	0	root	_	Translit=dedu.
 
 # sent_id = 161
-# text = تُونُو څادَر کے بُودے جانگ بَھرا!
+# text = تُونُو څادَر کے بُودے جانگ بَھرا
 # translit = tunu tsadər ke bude ǰaŋ bhəra.
-1	تُونُو	تُونُو	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tunu
-2	څادَر	څادَر	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=tsadər
-3	کے	کے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ke
-4	بُودے	بُودے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bude
-5	جانگ	جانگ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ǰaŋ
-6	بَھرا!	بَھرا!	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bhəra.
+1	تُونُو	تُونُو	PRON	_	Case=Gen|Number=Sing|Person=2	2	poss	_	Translit=tunu
+2	څادَر	څادَر	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	3	obj	_	Translit=tsadər
+3	کے	کے	ADP	_	Case=Acc	2	case	_	Translit=ke
+4	بُودے	بُودے	VERB	_	Aspect=None|Tense=Pres|Verbform=Inf	5	advcl	_	Translit=bude
+5	جانگ	جانگ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	6	obj	_	Translit=ǰaŋ
+6	بَھرا	بَھرا	VERB	_	Aspect=None|Tense=None|VerbForm=Fin|Number=Sing|Person=2	0	root	_	Translit=bhəra.
 
 # sent_id = 162
 # text = تی شَرتے ماس بھیڜتے مُھن مُوشکے تَھوؤ
 # translit = ti šərte mas bheṣte mhun muške thow.
-1	تی	تی	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=ti
-2	شَرتے	شَرتے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=šərte
-3	ماس	ماس	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mas
-4	بھیڜتے	بھیڜتے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=bheṣte
-5	مُھن	مُھن	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=mhun
-6	مُوشکے	مُوشکے	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=muške
-7	تَھوؤ	تَھوؤ	X	_	Case=|Gender=|Number=|Person=	0	root	_	Translit=thow.
+1	تی	تی	PRON	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	Translit=ti
+2	شَرتے	شَرتے	ADV	_	_	3	advmod	_	Translit=šərte
+3	ماس	ماس	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Masc	4	obj	_	Translit=mas
+4	بھیڜتے	بھڜو	VERB	_	Aspect=None|Tense=Pres|VerbForm=Inf	5	advcl	_	Translit=bheṣte
+5	مُھن	مُھن	PRON	_	Case=Gen|Number=Plur|Person=1	6	nmod	_	Translit=mhun
+6	مُوشکے	مُوشکے	ADP	_	Case=Loc	7	obl	_	Translit=muške
+7	تَھوؤ	تَھوؤ	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3	0	root	_	Translit=thow.
 
 # sent_id = 163
 # text = مھأ خزا آن بَھنئی وا لار تَھل
