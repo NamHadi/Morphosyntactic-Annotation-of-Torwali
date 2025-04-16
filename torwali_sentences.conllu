@@ -1549,7 +1549,7 @@
 # translit = khe čhin o a bæṭa lhat.
 1	کھے	کھے	NOUN	_	Case=Nom|Number=Sing|Person=None|Gender=Fem	2	nsub	_	Translit=khe
 2	چِھن	چِھن	VERB	_	Aspect=Perf|Tense=Past|Number=Sing|Person=3|Gender=Fem	0	root	_	Translit=čhin
-3	و	و	CONJ	_	_	4	mark	_	Translit=o
+3	و	و	SCONJ	_	_	4	mark	_	Translit=o
 4	آ	آ	PRON	_	Case=Nom|Number=Sing|Person=1|Gender=None	6	nsub	_	Translit=a
 5	بأٹ آ	بأٹ آ	NOUN	_	Case=Acc|Number=Sing|Person=None|Gender=Fem	6	obl	_	Translit=bæṭa
 6	لھات	لھوؤ	ADJ	_	_	5	case	_	Translit=lhat.
